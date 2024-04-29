@@ -1,4 +1,6 @@
 # TitlePlugin
+### 如果喜欢可以支持一下
+[爱发电](https://afdian.net/a/suxiaolin)
 ### 称号插件
 ### 支持前缀后缀分别开启
 ### 支持渐变颜色
