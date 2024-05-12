@@ -31,12 +31,11 @@ public class MySQL implements sqlchoose{
     }
     public static void LoadMysql() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://" + Host + ":" + Port + "/" + Database;
             connection = DriverManager.getConnection(url, Username, Password);
             createTableIfNotExists();
             Bukkit.getConsoleSender().sendMessage("[TitlePlugin]§2Mysql数据库连接成功");
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             Bukkit.getConsoleSender().sendMessage("[TitlePlugin]§4Mysql数据库连接错误!" + e.getMessage());
         }
     }
