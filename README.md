@@ -7,6 +7,7 @@
 ### 支持经济插件(使用vault的插件)
 ### 支持点券插件(playerpoints)
 ### 请搭配聊天插件使用
+### 必要前置[PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 ## 指令+用法+权限
 ### 玩家:
 
